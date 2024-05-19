@@ -1,0 +1,32 @@
+$button_height: 48px;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  line-height: $button_height;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+}
+
+.wrapper:hover {
+  background-color: #e0e0e0;
+}
+
+.disabled {
+  filter: brightness(50%);
+}
+
+.fixed {
+  padding: 0 24px;
+  height: $button_height;
+}
+
+// 이거에 대한 것은 배제 예정
+.responsive {
+  width: 100%;
+  height: $button_height;
+}

@@ -1,0 +1,34 @@
+$pc_width: 1440px;
+$primary_color: #000000;
+$secondary_color: #838383;
+
+.headerContainer {
+  background-color: $primary_color;
+  position: fixed;
+  z-index: 99;
+  width: $pc_width;
+  height: 80px;
+  font-size: 32px;
+  line-height: 40px;
+  &.m {
+    width: 100%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px;
+}
+
+.hamburger {
+  display: inline-block;
+  margin: 10px;
+}
+
+.acitveText {
+  color: white;
+}
+
+.inactiveText {
+  color: $secondary_color;
+}

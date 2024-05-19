@@ -1,0 +1,19 @@
+$secondary_color: #838383;
+
+.container {
+  padding: 0 14px;
+  text-align: left;
+}
+
+.title {
+  color: white;
+  cursor: pointer;
+}
+
+.selected {
+  color: white;
+}
+
+.unselected {
+  color: $secondary_color;
+}

@@ -1,0 +1,20 @@
+$thumbnail_size: 400px;
+$image_size: 216px;
+
+.thumbnail {
+  display: block;
+  margin: 62px auto 0;
+  width: $thumbnail_size;
+  height: $thumbnail_size;
+  &.m {
+    margin: 32px auto 0;
+    width: $image_size;
+    height: $image_size;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}

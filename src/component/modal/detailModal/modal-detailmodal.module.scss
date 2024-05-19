@@ -1,0 +1,52 @@
+.contentWrapper {
+  height: 100%;
+  // overflow-y: auto;
+}
+
+.sectionWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.mSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.viewerWrapper {
+  width: 668px;
+  height: 100%;
+}
+
+.mViewerWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.textWrapper {
+  flex: 1;
+  padding: 32px 0px 32px 12px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.mTextWrapper {
+  padding: 24px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 24px;
+}

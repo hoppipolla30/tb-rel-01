@@ -1,0 +1,29 @@
+$secondary_color: #838383;
+
+.container {
+  padding: 10px 0;
+}
+.thumbnail {
+  display: block;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.cateItem {
+  display: inline-block;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.selected {
+  color: white;
+}
+
+.unselected {
+  color: $secondary_color;
+}
+
+.itemWrapper {
+  margin-top: 36px;
+  max-width: 90%;
+}

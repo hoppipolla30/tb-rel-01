@@ -1,0 +1,43 @@
+$padding: 20px;
+$primary_color: #000000;
+$secondary_color: #838383;
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: $primary_color;
+  position: fixed;
+  z-index: 999;
+  padding: $padding $padding 45px;
+  line-height: 15px;
+  overflow-y: auto;
+  transition: 0.3s;
+  &.hide {
+    display: none;
+  }
+}
+
+.close {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.menu {
+  margin-top: 38px;
+  cursor: pointer;
+}
+
+.userBtnWrapper {
+  width: calc(100% - $padding * 2);
+  box-sizing: border-box;
+}
+
+.activeText {
+  color: white;
+}
+
+.inactiveText {
+  color: $secondary_color;
+}

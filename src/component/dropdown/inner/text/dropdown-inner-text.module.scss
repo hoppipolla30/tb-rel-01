@@ -1,0 +1,24 @@
+$secondary_color: #838383;
+$gap_size: 10px;
+
+.container {
+  padding: $gap_size 0;
+}
+.title {
+  color: $secondary_color;
+}
+.content {
+  margin-top: $gap_size;
+}
+.secWrapper {
+  margin: $gap_size 0;
+}
+
+.name {
+  display: block;
+}
+
+.glbWrapper {
+  width: 100%;
+  height: 360px;
+}

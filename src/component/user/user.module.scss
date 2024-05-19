@@ -1,0 +1,23 @@
+$primary_color: #000000;
+$secondary_color: #838383;
+
+.userWrapper {
+  background-color: white;
+  color: $primary_color;
+  border-radius: 30px;
+  padding: 20px;
+  height: 268px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  position: relative;
+}
+
+.textSection {
+  margin-top: 18px;
+}
+.textBottom {
+  font-size: 14px;
+  position: absolute;
+  bottom: 30px;
+  color: $secondary_color;
+}
