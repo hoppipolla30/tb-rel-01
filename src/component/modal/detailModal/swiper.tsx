@@ -87,7 +87,7 @@ export default function ModelViewSwiper({ rsp = "", selected }: Props) {
       {ModelUrlArr[selected].map((v: string, i: number) => {
         return (
           <SwiperSlide key={i.toString()} style={{ height: "100%" }}>
-            <ModelViewer modelUrl={v} />
+            <ModelViewer modelUrl={v} selected={selected} />
           </SwiperSlide>
         );
       })}
