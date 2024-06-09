@@ -1,10 +1,9 @@
 import styles from "./modelviewer.module.scss";
-import { Suspense, useContext } from "react";
+import { Suspense } from "react";
 import ModelRender from "./model";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import * as THREE from "three";
-import { textBundle } from "@/util/format.util";
 
 // const CAMERA_SETTING = {
 //   position: new THREE.Vector3(1.9, -0.01, -0.8),
@@ -14,9 +13,13 @@ import { textBundle } from "@/util/format.util";
 
 THREE.Cache.enabled = true;
 const CAMERA_SETTING = {
-  position: new THREE.Vector3(1, 0.3, -0.5),
+  // position: new THREE.Vector3(1, 0.3, -0.5), // 기존
+  position: new THREE.Vector3(0.2, 0.5, -0.5), // 1번
+  // position: new THREE.Vector3(0.2, 0.5, 5), // 1번
+  // fov: 75, // 2번 카메라 이거 설정하기
   near: 0.1,
   far: 10,
+  zoom: 120,
 };
 
 interface Props {

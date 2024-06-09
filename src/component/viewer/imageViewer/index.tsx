@@ -36,7 +36,7 @@ export default function ImageViewer({ rsp = "", onShowClick }: Props) {
         </div>
         <img
           className={styles.image}
-          src={"/img/thumb/slider/thumb3.png"}
+          src={"/img/thumb/slider/thumb4.png"}
           alt={"thumbnail"}
         />
       </div>
@@ -46,7 +46,7 @@ export default function ImageViewer({ rsp = "", onShowClick }: Props) {
         </div>
         <img
           className={styles.image}
-          src={"/img/thumb/slider/thumb4.png"}
+          src={"/img/thumb/slider/thumb3.png"}
           alt={"thumbnail"}
         />
       </div>

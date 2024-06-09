@@ -106,6 +106,7 @@ export default function PagePresenter({
             onChangeModal={() => {
               onChangeModal("detail", !isShowModal.detail);
             }}
+            rsp={rsp}
           />
           <ImageViewer
             rsp={rsp}
@@ -115,15 +116,13 @@ export default function PagePresenter({
             }}
           />
         </div>
-        {!isTabletBelow && (
-          <Footer
-            rsp={rsp}
-            onSelectTerms={(selected: SelectTermsType) => {
-              setSelectedTerms(selected);
-              onChangeModal("terms", true);
-            }}
-          />
-        )}
+        <Footer
+          rsp={rsp}
+          onSelectTerms={(selected: SelectTermsType) => {
+            setSelectedTerms(selected);
+            onChangeModal("terms", true);
+          }}
+        />
       </div>
     </>
   );

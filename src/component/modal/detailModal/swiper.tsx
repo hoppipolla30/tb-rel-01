@@ -65,7 +65,7 @@ interface Props {
   selected: number;
 }
 export default function ModelViewSwiper({ rsp = "", selected }: Props) {
-  console.log(ModelUrlArr[1][0]);
+  // console.log(ModelUrlArr[1][0]);
   return (
     <Swiper
       style={

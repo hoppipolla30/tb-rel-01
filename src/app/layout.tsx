@@ -7,6 +7,21 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: textBundle().logo.title,
+    description: "타불라라싸 프로젝트",
+    // url: "http://localhost:3000",
+    // siteName: textBundle().logo.title,
+    images: [
+      {
+        // url: "https://nextjs.org/og.png",
+        url: "/opengraph.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({

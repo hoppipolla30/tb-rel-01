@@ -16,8 +16,8 @@ export default function Footer({ rsp = "", onSelectTerms }: Props) {
   return (
     <footer className={`${styles.footerContainer} ${styles[rsp]}`}>
       <ul className={`${styles.footerWrapper} ${styles[rsp]}`}>
-        <li className={`${styles[rsp]}`}>ⓒ tabula rasa all rights reserved.</li>
-        <li className={styles.iconAligenWrapper}>
+        <li className={`${styles[rsp]}`}>ⓒTabula rasa all right reserved.</li>
+        <li className={`${styles.iconAligenWrapper} ${styles[rsp]}`}>
           {/* 이메일 */}
           <div
             className={`${styles[rsp]} ${styles.clickable} ${styles.iconAligenWrapper}`}
@@ -29,8 +29,8 @@ export default function Footer({ rsp = "", onSelectTerms }: Props) {
               width={theme?.extend?.size[`icon-md`]}
               height={theme?.extend?.size[`icon-md`]}
             />
-            <Link href={`mailto:john@tabula-rasa.org`}>
-              john@tabula-rasa.org
+            <Link href={`mailto:access@tabularasasite.com`}>
+              access@tabularasasite.com
             </Link>
           </div>
           {/* 인스타그램 */}

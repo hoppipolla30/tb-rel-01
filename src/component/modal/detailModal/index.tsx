@@ -47,11 +47,24 @@ export default function DetailModal({
             <div className={styles.content}>
               {text.artwork[selected].summary}
             </div>
+            {text.artwork[selected]?.summary2 && (
+              <div className={styles.content}>
+                {text.artwork[selected].summary2}
+              </div>
+            )}
             <br />
             <br />
             <div className={styles.content}>
               {text.artwork[selected].content_kr}
             </div>
+            {text.artwork[selected]?.content2_kr && (
+              <>
+                <br />
+                <div className={styles.content}>
+                  {text.artwork[selected].content2_kr}
+                </div>
+              </>
+            )}
             <br />
             <br />
             <div className={styles.content}>
